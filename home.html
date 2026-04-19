@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD CHECKER</title>
+    <style>
+        body{
+            background-color:rgb(152, 185, 206);
+        }
+        .container{
+            background-color:rgb(152, 185, 206);
+            border:2px solid black;
+            border-radius: 20px;
+            height: 95vh;
+            width: 98vw;
+            box-shadow: 10px 10px 10px;
+        }
+        .box{
+            border:2px solid black;
+            border-radius: 20px;
+            height: 40vh;
+            width: 40vw;
+            margin: auto;
+            margin-top: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 10px 10px 5px;
+
+        }
+        .pass{
+            border:2px solid black;
+            height:5vh;
+            width: 30vw;
+            border-radius: 20px;
+            background-color:rgb(203, 228, 244);
+            box-shadow: 10px 10px 5px;
+            padding: 5px;
+            margin:20px;
+            font-size:medium;
+            font-family:cursive;
+        }
+        .but{
+            border:2px solid white;
+            height:5vh;
+            width: 15vw;
+            border-radius: 20px;
+            background-color:rgb(203, 228, 244);
+            box-shadow: 10px 10px 5px;
+            margin:20px;
+            font-size:medium;
+            font-family:cursive;
+        }
+        h2{ 
+            border:2px solid black;
+            height:5vh;
+            width: 30vw;
+            border-radius: 20px;
+            background-color:rgb(203, 228, 244);
+            box-shadow: 10px 10px 5px;
+            padding: 5px;
+            text-align: center;
+            font-size:large;
+            font-family:cursive;
+            margin: auto;
+            margin-top: 10px;
+        }
+        p{
+            display: none;
+            border:2px solid black;
+            border-radius: 20px;
+            width: 30vw;
+            background-color:rgb(203, 228, 244);
+            box-shadow: 10px 10px 5px;
+            padding: 5px;
+            text-align: center;
+            font-size:large;
+            font-family:cursive;
+            margin: auto;
+            margin-top: 10px;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container" name="container" id="container">
+        <div class="box" name="box" id="box">
+            <h2>BUILD YOUR SECURE PASSWORD</h2>
+            <input type="text" name="pass" id="pass" class="pass"><br>
+            <button name="but" id="but" class="but" onclick="return dis()">CHECK PASSWORD</button>
+            <p id="demo"></p>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

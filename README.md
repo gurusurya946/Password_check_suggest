@@ -29,11 +29,17 @@ Features
 
 password-strength-checker/
 │
+
 ├── index.html # User Interface
+
 ├── style.css # Styling
+
 ├── script.js # Password logic (Web)
+
 ├── password_checker.py # Python version
+
 └── README.md
+
 
 
 ---

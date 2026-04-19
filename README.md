@@ -26,6 +26,7 @@ Features
 
 
 📂 Project Structure
+
 password-strength-checker/
 │
 ├── index.html # User Interface
